@@ -14,7 +14,7 @@ const Header = () => {
           <button onClick={() => reset()} ><img src="src\assets\images\back.svg" alt="" /></button>
           <input 
             type="text" 
-            placeholder="Поиск..." 
+            placeholder="Поиск2..." 
             autoFocus 
             value={text}
             onChange={(e) => setText(e.target.value)}
